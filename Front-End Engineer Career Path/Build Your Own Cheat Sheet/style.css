@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url(//db.onlinewebfonts.com/c/561f38b1f4570de0fb8a39d691ab058c?family=Tungsten+Bold);
+@import url(//db.onlinewebfonts.com/c/0201813274259c3d4f78760d19270bab?family=DINNextLTW04-Medium);
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F9F9F9;
+}
+
+#introduction{
+  background-color: #9B6953;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+#prompt{
+  border-radius: 10px;
+  padding: 20px;
+  text-align: justify;
+  background-color: #FFAD89;
+}
+
+h1{
+  font-style: italic;
+  text-transform: uppercase;
+  color: #D0A58F;
+  margin: 5px;
+}
+
+table {
+  border: 10px solid #596088;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 20px auto;
+}
+
+th, td {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+th{
+  border: 5px solid #D55C5A;
+}
+
+td {
+  border: 5px solid #F6C992;
+}
+
+#valorant-table{
+  font-family: Tungsten-Bold,arial,georgia,sans-serif;
+  text-transform: uppercase;
+}
+
+#valorant-table thead{
+  color: #FF4755;
+  background-color: #EBE8E1;
+}
+
+#valorant-table th, #valorant-table td{
+  border: 1px solid black;
+  border-radius: 0px;
+  text-align: center;
+}
+
+#valorant-table td{
+  color: #383E3A;
+  font-family: DINNextLTW04-Medium,arial,georgia,sans-serif;
+}
+
+.controller{
+  background-color: #E5EFFF;
+}
+
+.duelist{
+  background-color: #FFE6E8;
+}
+
+.sentinel{
+  background-color: #E5FFFB;
+}
+
+.initiator{
+  background-color: #FFF0E5;
+}
+
+.role img{
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+  background-color: #ADABA5;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.hovertext {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 300px;
+  background-color: #FF4755;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 10px;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
