@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 25px;
+}
+
+h1, h2{
+  text-transform: uppercase;
+}
+
+h2{
+  text-align: center;
+}
+
+h2#day {
+  text-decoration: #FF9966 wavy underline;
+}
+
+h2#night {
+  text-decoration: #3A395E wavy underline;
+}
+
+aside{
+  text-align: center;
+}
+
+.block{
+  background-color: #F2F2F2;
+  border-radius: 10px;
+  border-style: inset;
+  display:inline-block;
+  padding: 10px;
+  height: 50%;
+  width: 80%;
+  margin: 10px auto;
+  vertical-align: top;
+}
+
+.color-white{
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+  border: 5px solid black;
+  color: white;
+  margin: 30px 30px;
+  padding: 50px 50px;
+}
+
+.color-black{
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+  border: 5px solid black;
+  color: black;
+  margin: 30px 30px;
+  padding: 50px 50px;
+}
+
+.highlight-white{
+  border-radius: 2px;
+  color:white;
+  padding:2px;
+}
+
+.highlight-black{
+  border-radius: 2px;
+  color:black;
+  padding:2px;
+}
+
+#liver-chestnut .color-title{
+  background-color:#9C6853;
+}
+
+#liver-chestnut .web-safe{
+  background-color: #996666;
+}
+
+#liver-chestnut .inverse{
+  background-color:#6397AC;
+}
+
+#unbleached-silk .color-title{
+  background-color:#FBDFCA;
+}
+
+#unbleached-silk .web-safe{
+  background-color:#FFCCCC;
+}
+
+#unbleached-silk .inverse{
+  background-color:#042035;
+}
+
+#pastel-pink .color-title{
+  background-color:#E1A396;
+}
+
+#pastel-pink .web-safe{
+  background-color:#CC9999;
+}
+
+#pastel-pink .inverse{
+  background-color:#1E5C69;
+}
+
+#desaturated-cyan .color-title{
+  background-color:#689595;
+}
+
+#desaturated-cyan .web-safe{
+  background-color:#669999;
+}
+
+#desaturated-cyan .inverse{
+  background-color:#976A6A;
+}
+
+#dark-salmon .color-title{
+  background-color:#EA977A;
+}
+
+#dark-salmon .web-safe{
+  background-color:#FF9966;
+}
+
+#dark-salmon .inverse{
+  background-color:#156885;
+}
+
+#peach-orange .color-title{
+  background-color:#F6C992;
+}
+
+#peach-orange .web-safe{
+  background-color:#FFCC99;
+}
+
+#peach-orange .inverse{
+  background-color:#09366D;
+}
+
+#indian-red .color-title{
+  background-color:#D55C5A;
+}
+
+#indian-red .web-safe{
+  background-color:#CC6666;
+}
+
+#indian-red .inverse{
+  background-color:#2AA3A5;
+}
+
+#ucla-blue .color-title{
+  background-color:#596088;
+}
+
+#ucla-blue .web-safe{
+  background-color:#666699;
+}
+
+#ucla-blue .inverse{
+  background-color:#A69F77;
+}
+
+#platinum .color-title{
+  background-color:#E6E2E7;
+}
+
+#platinum .web-safe{
+  background-color:#FFCCFF;
+}
+
+#platinum .inverse{
+  background-color:#191D18;
+}
+
+#silver-pink .color-title{
+  background-color:#C1A5A9;
+}
+
+#silver-pink .web-safe{
+  background-color:#CC9999;
+}
+
+#silver-pink .inverse{
+  background-color:#3E5A56;
+}
+
+#dark-puce .color-title{
+  background-color:#4D3944;
+}
+
+#dark-puce .web-safe{
+  background-color:#663333;
+}
+
+#dark-puce .inverse{
+  background-color:#B2C6BB;
+}
+
+#shadow-blue .color-title{
+  background-color:#7183A5;
+}
+
+#shadow-blue .web-safe{
+  background-color:#669999;
+}
+
+#shadow-blue .inverse{
+  background-color:#8E7C5A;
+}
+
+#pastel-purple .color-title{
+  background-color:#B3A2B4;
+}
+
+#pastel-purple .web-safe{
+  background-color:#CC99CC;
+}
+
+#pastel-purple .inverse{
+  background-color:#4C5D4B;
+}
+
+#periwinkle-crayola .color-title{
+  background-color:#CBCDE8;
+}
+
+#periwinkle-crayola .web-safe{
+  background-color:#CCCCFF;
+}
+
+#periwinkle-crayola .inverse{
+  background-color:#343217;
+}
+
+#jacarta .color-title{
+  background-color:#3A395E;
+}
+
+#jacarta .web-safe{
+  background-color:#333366;
+}
+
+#jacarta .inverse{
+  background-color:#C5C6A1;
+}
+
+#yankees-blue .color-title{
+  background-color:#1D2142;
+}
+
+#yankees-blue .web-safe{
+  background-color:#333333;
+}
+
+#yankees-blue .inverse{
+  background-color:#E2DEBD;
+}
+
+.fonts p{
+  text-align:center;
+}
+
+.css-font{
+    text-decoration: #3A395E wavy underline;
+}
+
+#montserrat .color-title{
+  background-color:#201E2F;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#montserrat .medium-sky-blue{
+  color:#83FEF4;
+}
+
+#montserrat .jasmine{
+  color:#FEDF82;
+}
+
+#montserrat .middle-purple{
+  color:#CB7BC1;
+}
+
+#montserrat .pale-cornflower-blue{
+  color:#B2CBFE;
+}
+
+#montserrat .salmon{
+  color:#F58371;
+}
+
+#montserrat .highlight{
+  background-color:#FBF97E;
+  padding:2px;
+  color:black;
+  border-radius: 2px;
+  font-size: 15px;
+}
